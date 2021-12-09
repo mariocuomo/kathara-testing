@@ -1,0 +1,1 @@
+ifconfig eth0 185.11.14.1/24 up
