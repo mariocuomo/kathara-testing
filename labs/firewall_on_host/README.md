@@ -7,11 +7,11 @@ NETWORK TOPOLOGY
 </div>
 
 
-PC2 doesn't accept packets from eth0 with ip source 195.11.14.1/24 related to a new connections.<br>
-This means that if PC1 starts a ping to PC2, PC2 doesn't response to it.<br>
-At the same time PC2 can start a conversation - e.g., ping -  to PC1.
+**PC2** doesn't accept packets from **eth0** with ip source **195.11.14.1/24** related to a **new** connections.<br>
+This means that if **PC1** starts a ping to **PC2**, **PC2** doesn't response to it.<br>
+At the same time **PC2** can start a conversation - e.g., ping -  to **PC1**.
 
-This is the main basic idea of a firewall: deny the traffic that starts from external to the system.
+This is the main basic idea of a firewall: _deny the traffic that starts from external to the system_.
 
 
 ```Bash
