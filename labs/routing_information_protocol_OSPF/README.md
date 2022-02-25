@@ -1,4 +1,4 @@
-# Routing Information Protocol - RIP
+# Open Shortest Path First - OSPF
 
 NETWORK TOPOLOGY
 
