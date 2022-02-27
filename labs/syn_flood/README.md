@@ -27,7 +27,7 @@ while true
 Simple editing of [@SilverMoon](https://www.binarytides.com/syn-flood-dos-attack/) version.
 
 
-Using _tcpdump_ and _wireshark_
+Using _tcpdump_ and _wireshark_ for sniffing server's answer
 <div align="center">
   <img src="https://github.com/mariocuomo/kathara-testing/blob/main/labs/syn_flood/sniffing.png">
 </div>
