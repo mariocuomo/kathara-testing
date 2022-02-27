@@ -21,7 +21,6 @@ while true
 	            (struct sockaddr *) &sin,  /* socket addr, just like in */
 	            sizeof (sin)
 	         )/* a normal send() */
-do
 ```
 
 
@@ -30,7 +29,7 @@ Simple editing of [@SilverMoon](https://www.binarytides.com/syn-flood-dos-attack
 
 Using _tcpdump_ and _wireshark_
 <div align="center">
-  <img src="https://github.com/mariocuomo/kathara-testing/blob/main/labs/syn_flood/sniffing.png" width="800">
+  <img src="https://github.com/mariocuomo/kathara-testing/blob/main/labs/syn_flood/sniffing.png">
 </div>
 
 
