@@ -63,47 +63,22 @@ int main (void)
 		struct sockaddr_in sin;
 		struct pseudo_header psh;
 		
-		
-		//ip spoofed
-		char p[4];
-		char ss[4];
-		char t[4];
-		char q[4];
+
 		char finall[15];
+		finall[0]='\0';
 
 		for(int j=0;j<4;j++)
 		{
+			char tmp[4];
 			int cnt=rand()%255;
-
-			if(j==0){
-				sprintf(p, "%d", cnt);
-			}
-			if(j==1){
-				sprintf(ss, "%d", cnt);
-			}
-			if(j==2){
-				sprintf(t, "%d", cnt);
-			}
-			if(j==3){
-				sprintf(q, "%d", cnt);
-			}
+			sprintf(tmp, "%d", cnt);
+			strcat(finall,tmp);
+			strcat(finall,".");
 		}
 
-		finall[0]='\0';
-	    strcat(finall,p);
-	    strcat(finall,".");
-	    strcat(finall,ss);
-	    strcat(finall,".");
-	    strcat(finall,t);
-	    strcat(finall,".");
-	    strcat(finall,q);
 	    finall[strlen(finall)-1]='\0';
-		
-
 		strcpy(source_ip , finall);
-		
-
-		sin.sin_family = AF_INET;
+		sin.sin_family = AF_INET;	
 		sin.sin_port = htons(80);
 		sin.sin_addr.s_addr = inet_addr ("195.11.14.2");
 		
