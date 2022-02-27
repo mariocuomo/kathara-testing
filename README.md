@@ -5,7 +5,4 @@ Trying to simulate different network scenarios using [Kathará](https://www.kath
 - [ ] Set a simple firewall host<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/firewall_on_host)
 - [ ] Dinamic routing - RIP<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/routing_information_protocol_RIP)
 - [ ] Dinamic routing - OSPF<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/routing_information_protocol_OSPF)
-
-
-
-
+- [ ] Syn-floo-d attack<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/syn_flood) 
