@@ -1,0 +1,2 @@
+ifconfig eth0 185.1.0.1/30 up
+route add default gw 185.1.0.2 dev eth0
