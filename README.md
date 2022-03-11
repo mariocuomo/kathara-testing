@@ -8,4 +8,5 @@ Trying to simulate different network scenarios using [Kathará](https://www.kath
 - [ ] Syn-flood attack<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/syn_flood) 
 - [ ] BGP announcements<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/bgp_announcement) 
 - [ ] BGP policy<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/bgp_policy) 
+- [ ] Random load balancing<br>[_lab_](https://github.com/mariocuomo/kathara-testing/tree/main/labs/loadBalancer_twoWay) 
 

@@ -1,0 +1,5 @@
+ifconfig eth0 100.0.0.2/24 up
+ifconfig eth1 200.0.0.1/24 up
+
+iptables-legacy --table nat --append PREROUTING --destination 100.0.0.2 -p tcp --dport 80 --match statistic --mode random --probability 0.5 --jump DNAT --to-destination 200.0.0.2:80
+iptables-legacy --table nat --append PREROUTING --destination 100.0.0.2 -p tcp --dport 80 --match statistic --mode random --probability 0.5 --jump DNAT --to-destination 200.0.0.3:80
